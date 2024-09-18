@@ -9,5 +9,8 @@ int main() {
     for (auto& a : v) {
         std::cout << a << std::endl;
     }
+    int x = 5;
+    v[0] = x;
+    std::cout << v[0] << std::endl;
     return 0;
 }
